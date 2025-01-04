@@ -69,14 +69,18 @@ $member2->borrowBook($book2);
 echo "{$book1->getTitle()} has {$book1->getAvailableCopies()} copies left.<br>";
 echo "{$book2->getTitle()} has {$book2->getAvailableCopies()} copies left.<br>";
 
-// Return books
-$member1->returnBook($book1);
-echo '<br>';
-$member2->returnBook($book2);
 
-// Display available copies
-echo "{$book1->getTitle()} has {$book1->getAvailableCopies()} copies left.<br>";
-echo "{$book2->getTitle()} has {$book2->getAvailableCopies()} copies left.<br>";
+
+
+
+// // Return books
+// $member1->returnBook($book1);
+// echo '<br>';
+// $member2->returnBook($book2);
+
+// // Display available copies
+// echo "{$book1->getTitle()} has {$book1->getAvailableCopies()} copies left.<br>";
+// echo "{$book2->getTitle()} has {$book2->getAvailableCopies()} copies left.<br>";
 
 ?>
 
